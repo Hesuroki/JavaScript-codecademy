@@ -78,7 +78,7 @@ console.log(2019 - 1969);
 console.log(65 / 240);
 console.log(0.2708 * 100);
 
-/* <h1> 6.</h1> 
+/*  6.
 
 
 1.Inside a console.log() statement, concatenate the two strings 'Hello' and 'World'
