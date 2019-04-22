@@ -19,7 +19,6 @@ On line 1, write a single line comment that says Opening line.
 
 
 2.Single line comments are great for adding context to your code. Multi-line comments are often best suited to prevent a block of code from running. However, both types of comments can be used for either purpose.
-
 Use a multi-line comment so that the console.log() statements on lines 4 - 9 are commented out. */
 
 
@@ -93,3 +92,56 @@ console.log('Hello'+ ' ' + 'World');
 
 
 
+/*   7.
+
+1.Use the .length property to log the number of characters in the following string to the console: 'Teaching the world how to code' */
+
+/*SOLUTION*/
+
+console.log('Teaching the world how to code'.length);
+
+/*  8.
+
+1.Use the .toUpperCase() method to log the string 'Codecademy' to the console in all capital letters.
+
+2.In the second console.log() statement in app.js, we have a string ' Remove whitespace ' which has spaces before and after the words 'Remove whitespace'.
+If we browse the JavaScript string documentation, we find several built-in string methods that each accomplish a different goal. The one method that seems ideal for us is .trim().
+Use the method to remove the whitespace at the beginning and end of the string in the second console.log() statement. */
+
+/* SOLUTION */
+
+// Use .toUpperCase() to log 'Codecademy' in all uppercase letters
+console.log('Codecademy'.toUpperCase());
+
+// Use a string method to log the following string without whitespace at the beginning and end of it.
+console.log('    Remove whitespace   ');
+console.log('    Remove whitespace   '        .trim());
+
+/*  9.
+
+1.Inside of a console.log(), create a random number with Math.random(), then multiply it by 100.
+
+2.Now, use Math.floor() to make the output a whole number.
+Inside the console.log you wrote in the last step, put Math.random() * 100 inside the parentheses of Math.floor().
+
+3.Find a method on the JavaScript Math object that returns the smallest integer greater than or equal to a decimal number.
+Use this method with the number 43.8. Log the answer to the console.
+
+4.Use the JavaScript documentation to find a method on the built-in Number object that checks if a number is an integer.
+Put the number 2017 in the parentheses of the method and use console.log() to print the result. */
+
+/* SOLUTION */
+
+console.log( Math.random(2) * 100 );
+console.log(Math.floor(Math.random(2) * 100));
+console.log(Math.ceil(Math.random(43,8)));
+console.log(Number.isInteger(2017));
+
+
+
+
+
+
+
+
+ 
